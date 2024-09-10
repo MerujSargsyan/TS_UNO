@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "build": "tsc --outDir src/build src/js/*.ts",
+    "start": "node src/build/main.js",
+    "open": "open src/index.html"
+  }
+}
