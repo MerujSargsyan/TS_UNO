@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "target": "es6",
+        "module": "ESNext",
         "outDir": "src/build",
         "strict": true,
-        "target": "es2021"
     }
 }

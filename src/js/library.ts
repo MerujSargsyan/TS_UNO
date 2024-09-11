@@ -5,6 +5,6 @@ export default class Card {
     constructor(value : number, color : string) {
         this.value = value;
         this.color = color;
-        this.src = `../resources/cards/${color}_${value}`;
+        this.src = `../resources/cards/${color}_${value}.png`;
     }
 }
