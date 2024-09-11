@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "src/build",
+        "strict": true,
+        "target": "es2021"
+    }
+}
